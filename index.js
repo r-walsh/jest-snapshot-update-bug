@@ -1,4 +1,4 @@
 module.exports = {
-  add: (a, b) => a + b,
+  add: (a, b, c) => a + b + (c || 3),
 }
 
